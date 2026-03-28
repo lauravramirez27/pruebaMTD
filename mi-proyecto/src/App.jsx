@@ -34,7 +34,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* {vista === "cloudflare" && <CloudflareView />} */}
+      {vista === "cloudflare" && <CloudflareView />} 
       {vista === "rickmorty" && <RickMortyView />}
     </div>
   );
